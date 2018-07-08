@@ -15,13 +15,3 @@ def initilaize(name)
   @name = name
 end
 end
-
-class Dancer
-  include Kid
-
-  attr_accessor :name
-
-  def initialize(name)
-    @name = name
-  end
-end
